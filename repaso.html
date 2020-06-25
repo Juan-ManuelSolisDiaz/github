@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .padre{
+            display: inline-flex ;
+            height: 900px;
+            border: 1px blue solid;
+            justify-content: flex-end;
+            align-items: flex-start;
+            flex-direction: row-reverse;
+        }
+
+        .padre div {
+            width: 200px;
+            height: 200px;
+            border: 1px black solid;
+
+        }
+        .hijo{
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="padre">
+
+        <div>PARRAFO</div>
+        <div class="hijo">parrafo</div>
+        <div>parrafo</div>
+        
+    </div>
+    
+</body>
+</html>
